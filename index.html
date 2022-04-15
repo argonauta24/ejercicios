@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- tipografia -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@400;800&family=Patua+One&display=swap"
+      rel="stylesheet"
+    />
+    <!-- iconos -->
+    <script
+      src="https://kit.fontawesome.com/cbd160b333.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- estilo -->
+    <link rel="stylesheet" href="estilo/estilo.css" />
+    <title>portatil hover</title>
+  </head>
+
+  <body>
+    <header>
+      <a href="#inicio"> <img src="logo/logo-transparenterallas.png" alt=""></a>
+      <a href="#menu"><i class="fa-solid fa-bars"></i></a>
+      <nav id="menu">
+        <a href="#inicio">Inicio</a>
+        <a href="#acerca">Acerca</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#formulario">Contacto</a>
+      </nav>
+    </header>
+    <video autoplay muted loop>
+      <source src="videos/background-1.mp4" type="video/mp4" />
+    </video>
+    <section id="inicio">
+      <div class="container">
+        <div class="mockup mockup-macbook loaded opened">
+          <div class="part top">
+            <img
+              src="https://d1xm195wioio0k.cloudfront.net/images/mockup/macbook-top.svg"
+              alt=""
+              class="top"
+            />
+            <img
+              src="https://d1xm195wioio0k.cloudfront.net/images/mockup/macbook-cover.svg"
+              alt=""
+              class="cover"
+            />
+            <!-- esto es el contenido de dentro  -->
+            <video autoplay loop muted>
+              <source src="videos/interferencia.mp4" type="video/mp4" />
+            </video>
+
+            <!-- esto es el contenido de dentro  -->
+          </div>
+          <article>
+            <img src="diseños/mockup1.png" alt="texto-alternativo" />
+          
+            <img src="diseños/mockup2.jpg" alt="texto-alternativo" />
+          
+            <img src="diseños/mockup3.png" alt="texto-alternativo" />
+          </article>
+          <div class="part bottom">
+            <img
+              src="https://d1xm195wioio0k.cloudfront.net/images/mockup/macbook-cover.svg"
+              alt=""
+              class="cover"
+            />
+            <img
+              src="https://d1xm195wioio0k.cloudfront.net/images/mockup/macbook-bottom.svg"
+              alt=""
+              class="bottom"
+            />
+          </div>
+        </div>
+      </div>
+     
+    </section>
+
+    <section id="acerca">
+      <p>
+        Me motiva mucho desarrollar mis
+habilidades y crecer profesionalmente.
+Tengo confianza en mi capacidad de
+encontrar ideas interesantes para crear
+sitios webs que impacten.
+      </p>
+    </section>
+    <section id="proyectos">
+      <img src="diseños/mockup1.png" alt="" />
+      <article>
+        <h2>Slightly</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
+          distinctio, soluta voluptatibus iure, provident omnis veniam commodi
+          similique consectetur esse suscipit reiciendis? Deserunt modi aliquid
+          esse voluptate ratione repellendus praesentium!
+        </p>
+      </article>
+      <article>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ut
+          sapiente repellendus iste quos sit mollitia explicabo saepe
+          consequatur accusamus excepturi qui quae facilis nostrum, autem
+          dolores quisquam, ipsum incidunt.
+        </p>
+      </article>
+      <img src="diseños/mockup2.jpg" alt="" />
+      <article>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
+          distinctio, soluta voluptatibus iure, provident omnis veniam commodi
+          similique consectetur esse suscipit reiciendis? Deserunt modi aliquid
+          esse voluptate ratione repellendus praesentium!
+        </p>
+      </article>
+      <img src="diseños/mockup3.png" alt="" />
+    </section>
+
+    <section id="formulario">
+      <h2>Como sería tu sitio web?</h2>
+      <form action="formulario.php" method="POST">
+<label> 
+  <input type="text" name="Nombre" required placeholder="Tu nombre aquí" >
+</label>
+<label> 
+  <input type="text" name="Apellido" required placeholder="Apellido" >
+</label>
+<label for="email"
+            > <input type="email" id="email" name="email" required placeholder="Email" />
+          </label>
+          <label>
+            <select name="Tipo sitio web">
+tipo de pagina web:
+              <option value="tipo de web">Tipo de web</option>
+              <option value="Empresa">Empresa</option>
+              <option value="Personal">Personal</option>
+              <option value="Ventas">Ventas</option>
+            </select>
+            <label for="">
+              <textarea
+                name="comentario"
+                id="comentario"
+                cols="30"
+                rows="10"
+                placeholder="Describeme tu pagina web ideal"
+              ></textarea>
+            </label>
+            <label for="">
+              <input type="submit" value="Enviar" />
+             
+            </label>
+      </form>
+
+
+
+    </section>
+
+    <footer>
+      <article>
+        <img src="logo/logo-transparenterallas-negro.png" alt="">
+      </article>
+      <article>
+        <a href="">Aviso legal</a><br />
+        <a href="">Política de Privacidad</a><br />
+        <a href="">Política de cookies</a>
+      </article>
+    </footer>
+  </body>
+</html>
